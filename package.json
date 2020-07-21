@@ -14,5 +14,14 @@
     "http": "0.0.1-security",
     "https": "^1.0.0",
     "request": "^2.88.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ranjanasarma/Newsletter-SignUp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ranjanasarma/Newsletter-SignUp/issues"
+  },
+  "homepage": "https://github.com/Ranjanasarma/Newsletter-SignUp#readme"
 }

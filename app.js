@@ -30,10 +30,10 @@ app.post("/", function(req,res){
   };
 
   const jsondata = JSON.stringify(data);
-  const url="https://us10.api.mailchimp.com/3.0/lists/####";
+  const url="https://us10.api.mailchimp.com/3.0/lists/bd44c7efa2";
   const options={
     method:"POST",
-    auth:"ranjana:API KEY"
+    auth:"ranjana:06b28758ca7b0ce6db34c05b34803121-us10"
   }
 const request =  https.request(url, options,function(response){
   if (response.statusCode === 200){
@@ -62,7 +62,7 @@ app.get("/", function(req,res){
   res.send("server is ready and running");
 });
 
-app.listen(process.env.PORT,||3000, function(){
+app.listen(process.env.PORT ||3000, function(){
 
 });
 
