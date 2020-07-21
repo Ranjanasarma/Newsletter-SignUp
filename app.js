@@ -30,7 +30,7 @@ app.post("/", function(req,res){
   };
 
   const jsondata = JSON.stringify(data);
-  const url="https://us10.api.mailchimp.com/3.0/lists/bd44c7efa2";
+  const url="https://us10.api.mailchimp.com/3.0/lists/####";
   const options={
     method:"POST",
     auth:"ranjana:API KEY"
@@ -65,5 +65,4 @@ app.get("/", function(req,res){
 app.listen(process.env.PORT,||3000, function(){
 
 });
-//api key = 46ad23d0a0d61c468aa02c8aed64825e-us10 mailchimp
-// list id = bd44c7efa2
+
